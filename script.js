@@ -1,9 +1,5 @@
 
-var p = document.querySelector("p");
-var countLikes =3;
+var span = document.querySelectorAll("span");
 
-function addlike ()
-{
-    countLikes++;
-    p.innerText = countLikes + " like(s)"
-}
+function addlike (i)
+{ span[i].innerText = parseInt(span[i].innerText) +1;}

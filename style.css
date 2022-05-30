@@ -1,6 +1,23 @@
-* {margin: 0; font: Roboto;}
-body {display: flex; justify-content: flex-start; margin: 50px 10px 10px 50px;}
-.box { border: 1px solid black; padding: 10px; width: 500px; }
+* {margin: 0; font-family: 'Montserrat', sans-serif;}
+body { margin: 50px 10px 10px 50px;}
+
+#title {text-align: center; margin: 10px;}
+
+.top-page ,.bottom-page {margin: auto 30px 10px 30px;}
+
+.top-page { padding: 10px; background-color: rgb(36, 34, 34); color: white;}
+
+.bottom-page {display: flex;}
+.left {flex: 1; display: flex; flex-direction: column;align-items: center; border: 1px solid black; margin-right: 20px;height: fit-content;}
+.left * {margin: 10px; text-align: center;}
+
+.right {flex: 2; display: flex; flex-direction: column;}
+
+img {width: 100px;}
+
+
+
+.box { border: 1px solid black; padding: 10px;flex: 1;  height: fit-content; margin-bottom: 20px;}
 
 .top {display: flex; align-items: center;margin: 10px;}
 
@@ -8,6 +25,6 @@ body {display: flex; justify-content: flex-start; margin: 50px 10px 10px 50px;}
 
 .top p {flex: 1; text-align: center;}
 
-#btn { border: 1px solid black; box-shadow: 3px 3px black; background-color: rgb(223, 201, 92); font-size: large; height: fit-content; flex: 0.4; padding: 2px;}
+.btn { border: 1px solid black; box-shadow: 3px 3px black; background-color: rgb(223, 201, 92); font-size: large; height: fit-content; flex: 0.4; padding: 2px;}
 
-.bottom {margin: 20px 10px 10px 10px}
+.bottom {margin: 20px 10px 10px 10px;}

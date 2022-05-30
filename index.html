@@ -4,17 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Liking Likes</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="box">
-        <div class="top">
-            <h2>Some User</h2>
-            <p> 3 like(s)</p>
-            <button id="btn" onclick="addlike()">Like</button>
+    <div class="top-page"> <h1>Network</h1></div>
+    <h1 id="title"> Your Feed</h1>
+    <div class="bottom-page">
+        <div class="left">
+            <img src="1538346433.png" alt="profile image..">
+            <a href="#">add an avatar</a>
+            <h2>James Doe</h2>
         </div>
-        <div class="bottom"><p>this is some filler text, it can say anything..</p></div>
+        <div class="right">
+            <div class="box">
+                <div class="top">
+                    <h2>Some User</h2>
+                    <p> <span>3</span> like(s)</p>
+                    <button class="btn" onclick="addlike(0)">Like</button>
+                </div>
+                <div class="bottom"><p>just setting up new <a href="#">discord bot</a></p></div>
+            </div>
+            <div class="box">
+                <div class="top">
+                    <h2>Some User</h2>
+                    <p> <span>5</span> like(s)</p>
+                    <button class="btn" onclick="addlike(1)">Like</button>
+                </div>
+                <div class="bottom"><p>just finished my next comic book check it <a href="#">here</a></p></div>
+            </div>
+            <div class="box">
+                <div class="top">
+                    <h2>Some User</h2>
+                    <p> <span>10</span> like(s)</p>
+                    <button class="btn" onclick="addlike(2)">Like</button>
+                </div>
+                <div class="bottom"><p>i can't stop listing to the next <a href="#">album</a><br> whos else??</p></div>
+            </div>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
